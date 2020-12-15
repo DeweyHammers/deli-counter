@@ -1,6 +1,4 @@
 # Write your code here.
-katz_deli = []
-
 def take_a_number(array, str)
     array << str
     puts "Welcome, #{str}. You are number #{array.length} in line."
@@ -28,3 +26,4 @@ def now_serving(array)
         puts "There is nobody waiting to be served!"
     end
 end
+
